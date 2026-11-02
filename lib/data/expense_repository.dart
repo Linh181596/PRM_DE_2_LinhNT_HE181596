@@ -39,7 +39,7 @@ class ExpenseRepository {
         date TEXT NOT NULL
       )
     ''');
-
+    //Data mẫu
     final initialExpenses = [
       Expense(
         name: 'Ăn uống',
